@@ -1,0 +1,59 @@
+                                                                                                         ASSIGNMENT (HTML 5)
+ 
+(1) What are the new tag added in html 5?
+
+ans: There has been a few element introduced in html 5. Some of them were imported from xtml 2. other from large statisical surveys on made by google ,
+        opera and other people . the analysis of class names and id name heloed defining what were the most common semantic patterns .These new
+        element  are not yet completely imported to a;; browsers at this time.
+
+        Audio,  canvas, command, datalist, embed, figcaption, footer, header, mark, nav, progress, section, summary, svg, video.
+
+(2) How to embed audio and video in a webpage ?
+
+ans: The html 5 <audio> and <video> tags make it simple to a website .  You need to set src attributes to identify the media source and include a controls
+        attributes .so the users can play and pause the media.
+        
+       For audio tag
+                 <audio controls>
+                          <source="file name "  type ="audio/mp3"/>
+                  </audio>
+
+      For video tag 
+                 <video controls>
+                         <source="file name "  type ="video/mp4/>
+                     </video>
+(3) Semantic elements in html 5?
+
+ans :   Many website contain html code like <div id ='nav'>  <div class ='header'>  <div id ="footer"> to indicate navigation , header and footer
+            html 5 offfers new semantic elements to define diffrent parts  of a webpage.
+
+           <article>, <details>, <figcaption>, <figure> <footer>, <header>, <main>, <mark>, <nav>, <section>, <summmary> 
+
+(4) Canvas and Svg tags?
+
+ans:  The html <svg> elements is container for svg graphics svg stands for scalable vector graphics such as boxes, circle,  text etc.
+         
+         Svg stands for scalable vector graphics and is a language for describing 2d graphics .
+
+         The html <canvas> elements is used to draws graphics via javascript . The <canvas> elements is containors for graphics.
+
+         SVG TAGS::
+           
+          Svg has better scalability ,So  it canbe printed with high quality at any resolution . Svg gives better performance with smaller numbers of 
+          objects or large surface.
+
+         CANVAS :;
+
+          Canvas has poor scalability home it us not suitable for prining on higher resolution .
+          Canvas gives better performance with smaller or large number of object.
+
+ 
+
+
+
+    
+                  
+         
+         
+
+
