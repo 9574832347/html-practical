@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z index html</title>
+    <style>
+        img {
+            height: 250px;
+            width: 250px;
+            border: 2px solid black;
+
+        }
+
+        .main {
+            position: relative;
+        }
+
+        .pic1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .pic2 {
+            position: absolute;
+            top: 70px;
+            left: 70px;
+        }
+
+        .pic3 {
+            position: absolute;
+            top: 140px;
+            left: 140px;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="pic1">
+            <img src="css image 2.jpeg" alt="">
+        </div>
+        <div class="pic2">
+            <img src="css image3.jpeg" alt="">
+        </div>
+        <div class="pic3">
+            <img src="css image4.jpeg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
