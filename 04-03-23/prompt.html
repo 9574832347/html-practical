@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="">enter your name:</label>
+        <input type="text" name="" id="uname">
+        <br><br>
+        <label for="">enter your last name:</label>
+        <input type="text" name="" id="lname">
+        <br><br>
+
+        <button onclick=" return user_name()">click here</button>
+        <p id="p1"></p>
+
+        <button onclick="return command_check()">register here</button>
+        <p id="p2"></p>
+
+    </form>
+
+    <script>
+        function user_name() {
+            let n1 = document.getElementById("uname").value
+            let n2 = document.getElementById("lname").value
+
+            if (n1 == "") {
+                document.getElementById("p1").innerHTML = "please enter your name"
+                return false
+            } else {
+                document.getElementById("p1").innerHTML = ""
+                return false
+            }
+
+        }
+
+        function command_check() {
+            let fname = prompt("enter your name")
+
+            if (fname == "") {
+                alert("please enter your name")
+            } else {
+                document.getElementById("p2").innerHTML = "enter your first name"
+                return false
+            }
+        }
+    </script>
+</body>
+
+</html>
