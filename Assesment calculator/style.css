@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(138, 232, 228, 0.626);
+}
+
+.calculator {
+    margin: 60px auto;
+    border: 10px solid orange;
+    width: 180px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px 5px;
+
+}
+
+input {
+    text-align: right;
+}
+
+.calculator .input-1 {
+    padding: 10px 5px;
+    background-color: rgba(159, 180, 199, 0.861);
+    color: cornsilk;
+    text-align: right;
+
+}
+
+.calculator .container {
+    padding: 0px 23px;
+    background-color: grey;
+}
+
+
+
+.calculator button {
+    font-size: 20px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 2px 0px;
+
+}
+
+.calculator .btn2 button {
+    font-size: 20px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.calculator .btn3 button {
+    font-size: 20px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.calculator .btn4 button {
+    font-size: 20px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.calculator .btn5 button {
+    font-size: 20px;
+    width: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.calculator .btn5 .btn-c {
+    background-color: lightcoral;
+}
+
+.calculator .btn1 .btn-a {
+    background-color: blue;
+}
