@@ -1,0 +1,28 @@
+                                                    ================ J query  assignment ===============
+
+
+1) What is J query?
+Ans jQuery is a small, light-weight and fast JavaScript library. It is cross-platform and supports different types of browsers. It is also referred as ?write less do more? because it takes a lot of common tasks that requires many lines of JavaScript code to accomplish, and binds them into methods that can be called with a single line of code whenever needed. It is also very useful to simplify a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+2)How to apply CSS using J query, How to add class and remove class in J query, J query Animation ?
+
+ans. jQuery has several methods for CSS manipulation. We will look at the following methods:
+
+    addClass() - Adds one or more classes to the selected elements
+    removeClass() - Removes one or more classes from the selected elements
+    toggleClass() - Toggles between adding/removing classes from the selected elements
+    css() - Sets or returns the style attribute
+
+3) How to create slider with animation?
+
+ans.  Slider is created by using Html, css, javascript.
+
+     In j query there is ready structure for slider
+
+     $(function(){
+    $('.bxslider').bxSlider({
+      mode: 'fade',
+      captions: true,
+      slideWidth: 600
+    });
+  })
