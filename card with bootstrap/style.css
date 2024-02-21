@@ -1,0 +1,10 @@
+.card-img-top {
+    height: 170px;
+    width: 160px;
+
+}
+
+.card-body {
+    border-radius: 5px;
+    background-color: rgba(207, 201, 201, 0.587);
+}
